@@ -26,7 +26,7 @@ yum clean all
 yum -y update
 
 # install all other requisite packages for PHP-FPM + Nginx
-yum -y install php* nginx unixODBC unixODBC-devel sed-gnu rsync
+yum -y install php* nginx unixODBC unixODBC-devel sed-gnu rsync wget
 
 # move errant php.ini location (remove after IBM releases fix)
 PHPINIFROM=/QOpenSys/etc/php.ini
